@@ -146,18 +146,6 @@ color: var(--primary-text-color);
 }
 
 .site-nav .current::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: "";
-    display: block;
-
-    transform: translateY(2px);
-
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--accsent-color);
     opacity: 1;
 }
 
@@ -403,10 +391,10 @@ padding: 40px;
 }
 
 .form-label {
-font-size: 12px;
+    font-size: 12px;
     line-height: 1.16;
 
-    margin-bottom: 5px;
+   margin-bottom: 5px;
    text-align: left;
 }
 
@@ -1092,6 +1080,9 @@ margin-bottom: 9px;
     display: flex;
     align-items: baseline;
 }
+.sub-line {
+    display: flex;
+}
 
 .subskribe-input {
     min-width: 358px;
@@ -1129,8 +1120,8 @@ color: var(--hero-tittle-color);
     height: 50px;
     margin-left: 12px;
     display: flex;
-
-
+    align-items: center;
+    justify-content: center;
 
     font-family: inherit;
     font-weight: 700;
@@ -1142,9 +1133,7 @@ color: var(--hero-tittle-color);
     cursor: pointer;
 
     border:0;
-
-    align-items: center;
-    justify-content: center;
+  
     transition: background-color 250ms var(--timing-functione);
 }
 
