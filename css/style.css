@@ -1114,18 +1114,20 @@ margin-bottom: 9px;
 
 .subscribe-icone {
     margin-left: 10px;
-
-    transform: translateY(6px);
 }
 
 .subskribe-button {
-    position: relative;
+    /* position: relative; */
 color: var(--hero-tittle-color);
     background-color: var(--accsent-color);
 
     padding: 10px;
     width: 200px;
+    height: 50px;
     margin-left: 12px;
+    display: flex;
+
+
 
     font-family: inherit;
     font-weight: 700;
@@ -1136,8 +1138,10 @@ color: var(--hero-tittle-color);
     border-radius: 4px;
     cursor: pointer;
 
-    border-color: transparent;
+    border:none;
 
+    align-items: center;
+    justify-content: center;
     transition: background-color 250ms var(--timing-functione);
 }
 
