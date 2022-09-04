@@ -133,7 +133,7 @@ color: var(--primary-text-color);
 .site-nav .link::after {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     content: "";
     display: block;
 
@@ -403,6 +403,9 @@ padding: 40px;
 }
 
 .form-label {
+font-size: 12px;
+    line-height: 1.16;
+
     margin-bottom: 5px;
    text-align: left;
 }
@@ -1138,7 +1141,7 @@ color: var(--hero-tittle-color);
     border-radius: 4px;
     cursor: pointer;
 
-    border:none;
+    border:0;
 
     align-items: center;
     justify-content: center;
